@@ -1,0 +1,58 @@
+//$primary-color-1: #222222;
+$primary-color-1: #525156;
+$primary-color-6: #d6d6d6;
+$primary-color-5: #EDEDED;
+$primary-color-2:#ffffff;
+$primary-color-3: #E44326;
+$primary-color-4: #303030;
+//$secondary-color-1: #000000;
+$secondary-color-2: #515153;
+$secondary-color-1: #000000;
+$zvezdeGranda-color: #dda92f;
+$nikadNijeKasno-color: #793BE0;
+$prakticnaZena-color: #B17216;
+$horoskop-color: #3774A6;
+$recepti-color: #886C52;
+$grand-color: #B17216;
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: calc(13px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+._2p3a {
+    width: 100%!important;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+.App {
+    > div:first-child {
+        padding-top:100px;
+    }
+}
+.fluid-all {
+    padding:2.3rem 0;
+    background:$primary-color-5;
+}
+.inner-content {
+    width:100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    @media screen and (min-width:1200px) {
+        //min-width:1200px;
+        width:70%;
+    }
+    margin:auto;
+}
+.container-wrapper {
+    padding-top:80px;
+}

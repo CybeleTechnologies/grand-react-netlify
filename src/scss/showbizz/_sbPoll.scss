@@ -1,0 +1,95 @@
+.showbizz-poll {
+    width: 40%;
+    height: 400px;
+    box-sizing: border-box;
+    position:relative;
+    .bg-poll {
+        position:absolute;
+        top:0;
+        bottom:0;
+        width:100%;
+        z-index:100;
+        background:rgb(121 56 224 / 71%);;
+    }
+}
+
+.showbizz-pollItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.showbizz-pollInner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:101;
+}
+
+.showbizz-pollItemBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    //background-color: #5a319d;
+    background-color:#793AE0;
+    top: 0;
+    left: 0;
+    padding: .3rem .7rem;
+    font-size:.7em;
+    font-weight: bold;
+}
+
+.showbizz-pollItemLayer {
+    color: $primary-color-2;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    //background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    top:10%;
+    padding: 1rem 1.7rem;
+    h3 {
+        margin-bottom:1.7em;
+        font-size:1.5em;
+        font-weight:bold;
+    }
+    .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rezultati {
+        color:white;
+        font-weight: bold;
+        font-size:.9em;
+        text-decoration: none;
+    }
+    button {
+        font-weight:bold;
+        min-width:130px;
+        font-size:.9em;
+        color:#793AE0;
+        margin:0;
+    }
+}
+
+.form-check {
+    margin-bottom:1.7em;
+    label {
+        font-weight:200;
+    }
+}
+
+.btn-poll {
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .showbizz-poll {
+        width: 100%;
+        margin-right: 2rem;
+    }
+} 

@@ -1,0 +1,76 @@
+.shows {
+    display: block;
+    max-width: 100%;
+    padding-right: 1rem;
+}
+
+.showsMainTitle {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+.showbizz-show-content {
+    @media screen and (min-width: 1500px) {
+        display: grid;
+        grid-column-gap: 2rem;
+        grid-template-columns: 65% auto ;
+    }
+}
+.showsMainTitleText {
+    background-color: $primary-color-3;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 70%;
+}
+
+.showsItems {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+
+.showsItemsImage {
+    height: 100%;
+    width: 100%;
+}
+
+.showsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.showsItemText {
+    position: relative;
+}
+
+.showsItemCaption {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: .2rem;
+}
+
+.showsItemTitle {
+    width: 100%;
+    color: $primary-color-2;
+}
+
+.showsItemTime {
+    width: 100%;
+    color: $primary-color-2;
+}
+
+@media screen and (max-width: 576px){
+    .shows {
+        width: 100%;
+        padding-right: 0;
+    }
+    .showsMainTitleText {
+        width: 100%;
+    }
+}

@@ -1,0 +1,109 @@
+.zvezdeGranda {
+    padding-top: 80px;
+}
+
+.zvezdeGranda-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $primary-color-2;
+    padding-top: 50px;
+}
+
+.zvezdeGranda-contentCenter {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.zvezdeGranda-contentCenterMain {
+    display: flex;
+}
+
+.zvezdeGranda-contentCenterMainNews {
+    width: 70%;
+}
+
+.zvezdeGranda-contentCenterPromotions {
+    width: 30%;
+}
+
+.zvezdeGranda-contentCenterReklama {
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.zvezdeGranda-reklamaImage {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+}
+
+.zvezdeGranda-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    left: 0;
+}
+
+.zvezdeGranda-leftBannerImage {
+    width: 100%;
+}
+
+.zvezdeGranda-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+.zvezdeGranda-rightBannerImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .zvezdeGranda-contentCenter {
+        display: block;
+        width: 100%
+    }
+} 
+
+@media screen and (max-width: 1200px) {
+    .zvezdeGranda-leftBanner {
+        display: none
+    }
+}  
+
+@media screen and (max-width: 1200px) {
+    .zvezdeGranda-rightBanner {
+        display: none
+    }
+} 
+
+@media screen and (max-width: 576px) {
+    .zvezdeGranda {
+        padding-top: 30px;
+    }
+    .zvezdeGranda-content {
+        padding-top: 3%;
+    }
+    .zvezdeGranda-reklamaImage {
+        width: 100%;
+    }
+    .zvezdeGranda-contentCenterMain {
+        display: block;
+    }
+    .zvezdeGranda-contentCenterMainNews {
+        width: 100%;
+    }
+    .zvezdeGranda-contentCenterPromotions {
+        width: 100%;
+    }
+}

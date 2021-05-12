@@ -1,0 +1,50 @@
+@import 'config';
+@import '../scss/grand/emisije';
+@import '../scss/grand/ePopularNews.scss';
+@import 'footer';
+@import '../scss/horoskop/grandoskop';
+@import '../scss/horoskop/horoskop';
+@import '../scss/horoskop/gPopularNews';
+@import '../scss/horoskop/hPopularNews';
+@import '../scss/horoskop/Facebook';
+@import '../scss/horoskop/Premijera';
+@import 'navbar';
+@import 'navTrack';
+@import '../scss/nikad-nije-kasno/nikadNijeKasno';
+@import '../scss/nikad-nije-kasno/nnkPopularNews';
+@import '../scss/nikad-nije-kasno/nnkPremijera';
+@import '../scss/nikad-nije-kasno/nnkFacebook';
+@import '../scss/prakticna-zena/prakticnaZena';
+@import '../scss/prakticna-zena/pzPopularNews';
+@import '../scss/prakticna-zena/pzFacebook';
+@import '../scss/prakticna-zena/pzPremijera';
+@import '../scss/grand/programskaSema';
+@import '../scss/grand/psPopularNews';
+@import '../scss/grand/Facebook';
+@import '../scss/grand/Premijera';
+@import '../scss/recepti/recepti';
+@import '../scss/recepti/rPopularNews';
+@import '../scss/recepti/rFacebook';
+@import '../scss/recepti/rPremijera';
+@import '../scss/showbizz/showbizz';
+@import '../scss/zvezde-granda/zvezdeGranda';
+@import '../scss/zvezde-granda/zgPopularNews';
+@import '../scss/zvezde-granda/zgNews';
+@import '../scss/zvezde-granda/zgPremijera';
+@import '../scss/zvezde-granda/zgFacebook';
+@import '../scss/showbizz/sbCarousel';
+@import '../scss/showbizz/sbPoll';
+@import '../scss/showbizz/sbNews';
+@import '../scss/showbizz/sbPopularNews';
+@import '../scss/showbizz/sbShows';
+@import '../scss/showbizz/sbMostReadNews';
+@import 'newsTest';
+@import 'imageSlider';
+@import 'videoPlayer';
+
+
+@media screen and (min-width: 768px){
+    section {
+        display: block;
+    }   
+}

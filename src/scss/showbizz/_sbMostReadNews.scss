@@ -1,0 +1,105 @@
+.mostReadNews {
+    display: block;
+    width: 100%;
+}
+
+.mostReadNewsMainTitle {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.mostReadNewsMainTitleText {
+    background-color: $primary-color-3;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 100%;
+}
+
+.mostReadNewsItems {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+
+.mostReadNewsItemsImage {
+    height: auto;
+}
+
+.mostReadNewsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mostReadNewsItemTitle {
+    width: 100%;
+    color: $secondary-color-1;
+    background-color: $primary-color-5;
+    height: 100%;
+    padding-left: .5rem;
+}
+
+.showbizz-mostReadNewsBrand {
+    position: relative;
+}
+
+.showbizz-mostReadNewsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    padding: .3rem;
+    margin-bottom: .5rem;
+}
+
+.showbizz-horoskop {
+    background-color: #3774A6;
+}
+
+.showbizz-grand {
+    background-color: #B17216;
+}
+
+.showbizz-zvezdeGranda {
+    background-color: #dda92f;
+}
+
+@media screen and (max-width: 576px){
+    .mostReadNews {
+        width: 100%;
+    }
+    .mostReadNewsMainTitleText {
+        width: 100%;
+    }
+    .mostReadNewsItemTitle {
+        padding-bottom: 1.7rem;
+        font-size: 1.4vh;
+    }
+    .mostReadNewsMainTitle {
+        padding-top: 0;
+    }
+    .showbizz-mostReadNewsBrandText {
+        font-size: 10px;
+    }
+    .mostReadNewsItem {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .mostReadNewsItem {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .mostReadNewsItem {
+        width: 250px;
+    }
+}

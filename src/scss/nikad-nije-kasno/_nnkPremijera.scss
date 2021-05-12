@@ -1,0 +1,39 @@
+.nikadNijeKasno-premijera {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.nikadNijeKasno-premijeraMainTitle {
+    padding-bottom: .5rem;
+}
+
+.nikadNijeKasno-premijeraMainTitleText {
+    background-color: $nikadNijeKasno-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 100%;
+}
+
+.nikadNijeKasno-premijeraImageItem {
+    width: 100%;
+}
+
+.nikadNijeKasno-premijeraImage {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.nikadNijeKasno-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .nikadNijeKasno-premijera {
+        padding-left: 0;
+    }
+}

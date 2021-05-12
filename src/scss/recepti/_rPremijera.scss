@@ -1,0 +1,39 @@
+.recepti-premijera {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.recepti-premijeraMainTitle {
+    padding-bottom: .5rem;
+}
+
+.recepti-premijeraMainTitleText {
+    background-color: $recepti-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 100%;
+}
+
+.recepti-premijeraImageItem {
+    width: 100%;
+}
+
+.recepti-premijeraImage {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.recepti-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .recepti-premijera {
+        padding-left: 0;
+    }
+}

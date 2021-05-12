@@ -1,0 +1,52 @@
+.grandoskop-popularNews {
+    width: 100%;
+}
+
+.grandoskop-popularNewsMainTitle {
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+}
+
+.grandoskop-popularNewsMainTitleText {
+    background-color: $horoskop-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 40%;
+}
+
+.grandoskop-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.grandoskopPopularNews-image {
+    height: 50%;
+    width: 100%;
+}
+
+.grandoskopPopularNews-imageItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.grandoskopPopularNews-titleText {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .grandoskop-popularNewsItems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        padding-bottom: 2.5rem;
+    }
+    .grandoskop-popularNewsMainTitleText {
+        width: 100%;
+    }
+}

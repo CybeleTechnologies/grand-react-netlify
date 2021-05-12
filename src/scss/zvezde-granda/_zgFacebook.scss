@@ -1,0 +1,17 @@
+.zvezdeGranda-facebook {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.zvezdeGranda-facebookMain {
+    height: 500px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+    .zvezdeGranda-facebook {
+        padding-left: 0;
+    }
+}

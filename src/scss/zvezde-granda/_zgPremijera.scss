@@ -1,0 +1,39 @@
+.zvezdeGranda-premijera {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.zvezdeGranda-premijeraMainTitle {
+    padding-bottom: .5rem;
+}
+
+.zvezdeGranda-premijeraMainTitleText {
+    background-color: $zvezdeGranda-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 100%;
+}
+
+.zvezdeGranda-premijeraImageItem {
+    width: 100%;
+}
+
+.zvezdeGranda-premijeraImage {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.zvezdeGranda-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .zvezdeGranda-premijera {
+        padding-left: 0;
+    }
+}

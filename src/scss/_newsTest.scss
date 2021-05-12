@@ -1,0 +1,38 @@
+.newsTest {
+    padding-top: 80px;
+}
+
+.newsTest-content {
+    background-color: $primary-color-2;
+    padding-top: 33px;
+    margin: 0 15%;
+}
+
+.newsTest-contentCenter {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding: .5rem;
+}
+
+.newsTest-newsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .newsTest-contentCenter {
+        display: block;
+        width: 100%
+    }
+} 
+
+@media screen and (max-width: 575px) {
+    .newsTest {
+       padding-top: 0;
+    }
+} 

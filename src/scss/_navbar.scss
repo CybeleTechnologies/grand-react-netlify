@@ -1,0 +1,213 @@
+.navbar-logo-placeholder {
+    background-color: $primary-color-3;
+    width: 15%;
+}
+
+.navbar-logo {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    //background-color: $primary-color-1!important;
+    background-color: $primary-color-2 !important;
+    width: 100%!important;
+    padding: 0!important;
+    flex-flow: wrap!important;
+    height: 100px;
+}
+
+.navbar-nav {
+    text-align: center!important;
+    margin: 0 auto;
+    align-self:flex-end;
+}
+
+.nav-item {
+
+    @media screen and (min-width: 576px){
+        padding-left: 1.2em;
+    }
+    padding-right: 1.2em;
+    border:none !important;
+}
+
+.nav-link {
+    //color: $primary-color-2!important;
+    color:$primary-color-1 !important;
+    height: 100%;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    font-weight: bold;
+    padding-bottom:2rem;
+}
+
+.showbizzLink {
+    border-bottom: 2px solid red;
+}
+
+.zvezde-grandaLink {
+    border-bottom: 2px solid $zvezdeGranda-color;
+}
+
+.nikad-nije-kasnoLink {
+    border-bottom: 2px solid $nikadNijeKasno-color;
+}
+
+.prakticna-zenaLink {
+    border-bottom: 2px solid $prakticnaZena-color;
+}
+
+.horoskopLink {
+    border-bottom: 2px solid $horoskop-color;
+}
+
+.receptiLink {
+    border-bottom: 2px solid $recepti-color;
+}
+
+.grandLink {
+    border-bottom: 2px solid $grand-color;
+}
+
+.dropdown-menu {
+    background-color: $primary-color-1!important;
+    text-align: center;
+}
+
+.dropdown-item {
+    color: $primary-color-2!important;
+}
+
+.dropdown-item-grandoskop {
+    &:hover {
+        background-color: $horoskop-color!important;
+    }
+}
+
+.dropdown-item-horoskop {
+    &:hover {
+        background-color: $horoskop-color!important;
+    }
+}
+
+.dropdown-item-emisije {
+    &:hover {
+        background-color: $grand-color!important;
+    }
+}
+
+.dropdown-item-programska-sema {
+    &:hover {
+        background-color: $grand-color!important;
+    }
+}
+
+.dropdown-horoskop {
+    border: 3px solid $horoskop-color;
+}
+
+.dropdown-grand {
+    border: 3px solid $grand-color;
+}
+
+.navbar-collapse {
+text-align: -webkit-center;
+}
+
+.navbar-toggler {
+    color: $secondary-color-1!important;
+    border-color: $primary-color-1!important;
+    margin: .25rem;
+    background-color:$primary-color-1;
+}
+
+.navbar-toggler-icon {
+    width: 2em!important;
+    height: 2em!important;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    align-items:initial;
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+}
+
+.navbar-user {
+    background-color: $primary-color-3;
+    width: 8%;
+    text-align: center;
+
+    @media screen and (min-width: 576px) {
+        height:100%;
+    }
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.user-icon {
+    fill: $secondary-color-1!important;
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        height: max-content
+    }
+    .navbar-user {
+        padding: 1%;
+    }
+    .nav-link {
+        font-size: large;
+    }
+    .dropdown-item {
+        font-size: large;
+    }
+    .dropdown-toggle::after {
+        vertical-align: 0;
+    }
+    .showbizzLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid red;
+    }
+    
+    .zvezde-grandaLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $zvezdeGranda-color;
+    }
+    
+    .nikad-nije-kasnoLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $nikadNijeKasno-color;
+    }
+    
+    .prakticna-zenaLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $prakticnaZena-color;
+    }
+    
+    .horoskopLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $horoskop-color;
+    }
+    
+    .receptiLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $recepti-color;
+    }
+    
+    .grandLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $grand-color;
+    }
+    .navbar-user {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid #E44326;
+        width: 100%;
+    }
+}    

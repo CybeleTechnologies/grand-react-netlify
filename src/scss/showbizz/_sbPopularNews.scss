@@ -1,0 +1,116 @@
+.showbizz-popularNews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.showbizz-contentCenterPopularNews {
+    display: grid;
+    grid-template-columns: 1fr;
+    @media screen and (min-width: 1500px) {
+        grid-template-columns: 2fr 1fr;
+    }
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.showbizz-popularNewsMainTitle {
+    padding-bottom: .5rem;
+}
+
+.showbizz-popularNewsMainTitleText {
+    background-color: $primary-color-3;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 50%;
+}
+
+.showbizz-popularNewsItems {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.showbizz-popularNewsItemsImage {
+    height: 100%;
+    width: 100%;
+}
+
+.showbizz-popularNewsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.showbizz-popularNewsBrand {
+    position: relative;
+}
+
+.showbizz-popularNewsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: .3rem;
+}
+
+.showbizz-zvezdeGranda {
+    background-color: #dda92f;
+}
+
+.showbizz-popularNewsTitle {
+    position: relative;
+}
+
+.showbizz-popularNewsItemTitle {
+    width: 100%;
+    color: $primary-color-2;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: .2rem;
+}
+
+.showbizz-popularNewsbtnWrap {
+    width: 100%;
+    text-align: end;
+    padding-top: 1rem;
+}
+
+.showbizz-popularNewsbtn {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: .5rem;
+    
+}
+
+@media screen and (max-width: 768px){
+    .showbizz-popularNews {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+    .showbizz-popularNewsMainTitleText {
+        width: 100%;
+    }
+    .showbizz-popularNewsItemTitle {
+        font-size: 10px;
+    }
+    .showbizz-popularNewsBrandText {
+        font-size: 10px;
+    }
+}
+
+// @media screen and (max-width: 450px){
+//     .showbizz-popularNews {
+//         display: grid;
+//         grid-template-columns: repeat(1, 1fr);
+//         column-gap: 1rem;
+//     }
+// }

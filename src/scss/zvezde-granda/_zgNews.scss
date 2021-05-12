@@ -1,0 +1,32 @@
+.zvezdeGrandaNews {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+.zvezdeGrandaNewsItem {
+    display: flex;
+    width: 100%;
+}
+
+.zvezdeGrandaNews-image {
+    height: 100px;
+    width: 300px;
+    padding-right: .5rem;
+}
+
+.zvezdeGrandaNews-imageItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.zvezdeGrandaNews-titleText {
+    font-size: 14px;
+}
+
+.swiper-container {
+    padding-bottom: 1rem!important;
+}

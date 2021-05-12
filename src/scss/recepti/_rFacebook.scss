@@ -1,0 +1,17 @@
+.recepti-facebook {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.recepti-facebookMain {
+    height: 500px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+    .recepti-facebook {
+        padding-left: 0;
+    }
+}

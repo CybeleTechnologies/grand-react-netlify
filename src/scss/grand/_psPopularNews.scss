@@ -1,0 +1,52 @@
+.programskaSema-popularNews {
+    width: 100%;
+}
+
+.programskaSema-popularNewsMainTitle {
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+}
+
+.programskaSema-popularNewsMainTitleText {
+    background-color: $grand-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 40%;
+}
+
+.programskaSema-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.programskaSemaPopularNews-image {
+    height: 50%;
+    width: 100%;
+}
+
+.programskaSemaPopularNews-imageItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.programskaSemaPopularNews-titleText {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .programskaSema-popularNewsItems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        padding-bottom: 2.5rem;
+    }
+    .programskaSema-popularNewsMainTitleText {
+        width: 100%;
+    }
+}

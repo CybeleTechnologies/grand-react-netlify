@@ -1,0 +1,89 @@
+.showbizz-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+}
+
+.showbizz-newsItems {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-top: 1rem;
+}
+
+.showbizz-newsItemsImage {
+    width: 100%;
+}
+
+.showbizz-newsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+.showbizz-newsTitle {
+    position: relative;
+}
+
+.showbizz-newsBrand {
+    position: relative;
+}
+
+.showbizz-newsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: .3rem;
+}
+
+.showbizz-nikadNijeKasno {
+    background-color: #5a319d;
+}
+
+.showbizz-grand {
+    background-color: #B17216;
+}
+
+.showbizz-newsItemTitle {
+    position: absolute;
+    width: 100%;
+    height: 4.5rem;
+    color: $primary-color-2;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding: .2rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 1600px){
+    .showbizz-newsItemTitle {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .showbizz-news {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .showbizz-news {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 1rem;
+    }
+    .showbizz-newsItemTitle {
+        font-size: 1.2vh;
+        height: 3rem;
+    }
+    .showbizz-newsBrandText {
+        font-size: 1vh;
+    }
+}

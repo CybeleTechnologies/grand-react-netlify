@@ -1,0 +1,52 @@
+.prakticnaZena-popularNews {
+    width: 100%;
+}
+
+.prakticnaZena-popularNewsMainTitle {
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+}
+
+.prakticnaZena-popularNewsMainTitleText {
+    background-color: $prakticnaZena-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 40%;
+}
+
+.prakticnaZena-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.prakticnaZenaPopularNews-image {
+    height: 50%;
+    width: 100%;
+}
+
+.prakticnaZenaPopularNews-imageItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.prakticnaZenaPopularNews-titleText {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .prakticnaZena-popularNewsItems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        padding-bottom: 2.5rem;
+    }
+    .prakticnaZena-popularNewsMainTitleText {
+        width: 100%;
+    }
+}

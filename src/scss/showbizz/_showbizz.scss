@@ -1,0 +1,104 @@
+.showbizz {
+    padding-top: 80px;
+}
+
+.showbizz-content {
+    width: 100%;
+    background-color: $primary-color-2;
+    padding-top: 50px;
+}
+//.fluid-all {
+//    padding:2.3rem 0;
+//    background:$primary-color-5;
+//}
+.showbizz-contentCenter {
+    //width: 70%;
+    //height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    //padding-left: 1rem;
+    //padding-right: 1rem;
+}
+
+.showbizz-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    //max-width:6.5%;
+    position: fixed;
+    left: 0;
+}
+
+.showbizz-leftBannerImage {
+    width: 100%;
+}
+
+.showbizz-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    //max-width:6.5%;
+    position: fixed;
+    right: 0;
+}
+
+.showbizz-rightBannerImage {
+    width: 100%;
+}
+
+.showbizz-contentCenterCarousel {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.showbizz-contentCenterSecond {
+    display: flex;
+}
+
+.showbizz-contentCenterShows {
+    width: 40%;
+}
+
+.showbizz-contentCenterMostReadNews {
+    width: 60%;
+}
+
+@media (max-width: 1200px) {
+    .showbizz-contentCenter {
+        display: block;
+        width: 100%
+    };
+} 
+
+@media screen and (max-width: 1200px) {
+    .showbizz-leftBanner {
+        display: none
+    };
+}  
+
+@media screen and (max-width: 1200px) {
+    .showbizz-rightBanner {
+        display: none
+    };
+} 
+
+@media screen and (max-width: 576px) {
+    .showbizz {
+        padding-top: 30px;
+    }
+    .showbizz-content {
+        padding-top: 3%;
+    }
+    .showbizz-contentCenterCarousel {
+        display: block;
+    }
+    .showbizz-contentCenterSecond {
+        display: block;
+    }
+    .showbizz-contentCenterShows {
+        width: 100%;
+    }
+    .showbizz-contentCenterMostReadNews {
+        width: 100%;
+    }
+}  
